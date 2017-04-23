@@ -22,6 +22,22 @@ tax/VAT
 
 ![image](../img/enable_tax_fields.png)
 
+It should be noted however that although both inclusive and exclusive are able to be selected in how the the tax is calculated, a reverse calculation of tax cannot be performed, and in either instance, the tax component is **added** to the total amount that appears on the printed or emailed invoice. 
+
+An example as follows:
+
+If a tax rate of 10% is inserted, and a financial contribution of 20 dollars is received, when the tax is applied for exclusive it will be shown as follows:
+
+![image](../img/tax-exclusive1.png)
+
+And when the tax is applied for inclusive it will be shown as follows. 
+
+![image](../img/tax-inclusive2.png)
+
+In both cases, the GST and total will appear on the invoice as follows
+
+![image](../img/invoice.png)
+
 Adding a Financial Account for Sales Tax/VAT
 ---------------------------------------------
 
